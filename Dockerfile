@@ -1,3 +1,3 @@
-FROM nginx:alpine
-#COPY . C:\Users\Nusyn\Desktop\Dockerfile\index.html
-EXPOSE 8080
+FROM nginx
+COPY . C:\Users\Nusyn\Desktop\Dockerfile\index.html
+EXPOSE 90:8080
